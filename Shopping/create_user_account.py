@@ -448,7 +448,7 @@ if run_web:
             
         elif choose_option in ["11", "About Us"]:
             
-            with open(r"C:\Users\AMIR\python\database Project\AboutUs.txt", encoding="UTF-8") as website_info:
+            with open(r"temp\AboutUs.txt", encoding="UTF-8") as website_info:
                 print(website_info.read())
                 sleep(1)
         
