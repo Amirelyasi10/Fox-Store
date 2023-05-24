@@ -9,6 +9,8 @@ purchase orders are stored in the database.
 
 How to use the Fox Store website:
 
+• Import note: To use the website, enter in from the create_user_account_.py file.
+    
 sign up on the website and enter your email and password
 if you have an existing account, log in
 
