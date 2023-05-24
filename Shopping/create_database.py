@@ -21,7 +21,7 @@ class Database:
         
          
     def connect_database(self):
-        self.connect = sqlite3.connect(r"C:\Users\AMIR\python\database Project\Fox Store Database\FoxStore.db")
+        self.connect = sqlite3.connect(r"temp\FoxStore.db")
         self.database_info = self.connect.cursor()
         self.create_user_info_table()
         
